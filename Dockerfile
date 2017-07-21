@@ -2,6 +2,7 @@ FROM centos:6.6
 
 RUN yum update -y &&  \
     yum install -y \
+      yum-plugin-ovl \
       build-essential \
       git \
       libxml2 \
